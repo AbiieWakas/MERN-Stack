@@ -1,0 +1,33 @@
+.a{
+    background-color: blue;
+    height: 100px;
+    width: 800px;
+}
+/*.b{
+    background-color: rgb(37, 223, 56);
+    height: 100px;
+    width: 100px;
+}
+.c{
+    background-color: rgb(234, 158, 17);
+    height: 100px;
+    width: 100px;    
+}*/
+@media screen and (max-width:800px) {
+    .a{
+        background-color: aqua;
+        width: 400px;
+    }
+}
+@media screen and (max-width:500px) {
+    .a{
+        background-color: rgb(33, 19, 128);
+        width: 300px;
+    }
+}
+@media screen and (max-width:100px) {
+    .a{
+        background-color: rgb(203, 67, 26);
+        width: 200px;
+    }
+}
